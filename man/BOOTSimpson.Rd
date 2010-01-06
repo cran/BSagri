@@ -12,11 +12,11 @@ ordinary bootstrap sample of Simpsonindices, and applying the Algorithm of Besag
 empirical distribution of differences (BOOTSimpsonD) or ratios (BOOTSimpsonR) of the original distribution.
 }
 \usage{
-BOOTSimpsonD(X, f, type = "Dunnett", cmat = NULL,
- conf.level = 0.95, alternative = "two.sided", madj=TRUE, ...)
+BOOTSimpsonD(X, f, type = "Dunnett", cmat = NULL, conf.level = 0.95,
+ alternative=c("two.sided", "less", "greater"), madj=TRUE, ...)
 
-BOOTSimpsonR(X, f, type = "Dunnett", cmat = NULL,
- conf.level = 0.95, alternative = "two.sided", madj=TRUE, ...)
+BOOTSimpsonR(X, f, type = "Dunnett", cmat = NULL, conf.level = 0.95,
+ alternative=c("two.sided", "less", "greater"), madj=TRUE, ...)
 
 }
 

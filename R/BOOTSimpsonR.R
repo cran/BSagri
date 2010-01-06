@@ -1,6 +1,6 @@
 `BOOTSimpsonR` <-
 function(X, f, type="Dunnett",
- cmat=NULL, conf.level=0.95, alternative="two.sided", madj=TRUE, ...)
+ cmat=NULL, conf.level=0.95, alternative=c("two.sided", "less", "greater"), madj=TRUE, ...)
 {
 args<-list(...)
 alternative<-match.arg(alternative)
