@@ -1,7 +1,7 @@
 \name{Nematocera}
 \alias{Nematocera}
 \docType{data}
-\title{ Eklektor counts of Nematocera}
+\title{ Trap counts of Nematocera}
 \description{
   In a field trial, 4 treatments (A,B, Standard, Novum) were arranged in a randomized complete block design with 8 blocks
  and 32 plots. In summer 2005 soil eklektor traps were placed in each plot, on six dates from
@@ -32,7 +32,7 @@
 }
 
 \source{
-...
+personal communications, S.Prescher, JKI Braunschweig, Germany
 }
 
 \examples{

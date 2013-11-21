@@ -48,10 +48,10 @@ otherwise quantiles of an M-dimensional standard normal distribution with correl
 
 \author{ Frank Schaarschmidt }
 \note{ 
-This is a testversion and has not been checked extensively. Please report bugs.
+This is a testversion and has not been checked extensively. 
 
 }
-\seealso{ See \code{?coef} and \code{?vcov} for extracting of parameter vectors and corresponding variance covariance matrices from variou model fits. }
+\seealso{ See \code{?coef} and \code{?vcov} for extracting of parameter vectors and corresponding variance covariance matrices from various model fits. }
 \examples{
 
 
@@ -103,5 +103,3 @@ plotCI(test)
 }
 
 \keyword{ htest }
-\concept{ confidence interval }
-\concept{ multiple contrasts}

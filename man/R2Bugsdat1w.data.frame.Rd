@@ -27,4 +27,4 @@ R2Bugsdat1w.data.frame(data, response, treatment, Intercept = FALSE)
   \item{data }{the original data set}
   \item{Intercept }{a single logical indicating whether an Intercept was used to parameterize the factor variable}
 }
-\keyword{misc }
+\keyword{internal }

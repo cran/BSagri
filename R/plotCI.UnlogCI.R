@@ -1,8 +1,6 @@
 plotCI.UnlogCI<-function(x,...)
 {
 
-require(MCPAN)
-
 alt<-x$alternative
 
 CIEs<-x$conf.int

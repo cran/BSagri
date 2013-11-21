@@ -46,5 +46,5 @@ CCDiff.default(x=X, cmat=CMAT)
 }
 
 
-\keyword{ htest }
-\concept{ contrast }
+\keyword{internal}
+

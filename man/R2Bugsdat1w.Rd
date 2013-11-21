@@ -25,4 +25,4 @@ R2Bugsdat1w(formula, data)
   \item{Intercept }{a single logical indicating whether an Intercept was used to parameterize the factor variable}
 }
 
-\keyword{ misc }
+\keyword{internal}

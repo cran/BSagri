@@ -3,7 +3,7 @@
 \title{ Extract variance covariance matrix from objects of class geeglm }
 \description{
 Only for internal use with function glht: Extract the variance covariance matrix corresponding to the mu parameters of a gamlss-fit.
-Merely uses the method internally used in function summary.geeglm, package geepack.
+Merely a wrapper of the method internally used in function summary.geeglm, package geepack.
  }
 \usage{
 \method{vcov}{geeglm}(object, \dots)
@@ -13,7 +13,7 @@ Merely uses the method internally used in function summary.geeglm, package geepa
   \item{\dots}{Currently not used.}
 }
 \details{
- Only for internal use. Needs implementation of warnings.
+ Test version. Only for internal use. Needs implementation of warnings.
 }
 \value{A matrix of dimension m times m, if m is the length of coefficients from a geeglm fit.
   }

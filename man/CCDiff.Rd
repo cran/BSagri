@@ -30,5 +30,5 @@ An object of class "CCDiff", a list with elements
 }
 
 
-\keyword{ misc }
+\keyword{internal}
 

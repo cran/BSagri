@@ -24,5 +24,5 @@ CCRatio.boot(x, cmat = NULL,
  Testversion. For internal use.
 }
 
-\keyword{ htest }
-\concept{ contrats }
+\keyword{internal}
+

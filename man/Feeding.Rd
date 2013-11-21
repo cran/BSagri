@@ -5,8 +5,7 @@
 \description{
   Larvae of a non-target organism were fed with plant material derived from a novel variety(Novum),
  material from three standard varieties (NStandard: the standard variety most similar to Novum,
- and two additional standard varieties S1 and S2). Objective was to assess the impact of Novum on the pupation and hatching rate of an animal that potentially feeds on plant material
- compared to accepted standard varieties.  
+ and two additional standard varieties S1 and S2). Objective was to assess the impact of Novum on the pupation and hatching rate of an animal that potentially feeds on plant material compared to accepted standard varieties.  
 
 }
 \usage{data(Feeding)}
@@ -21,9 +20,6 @@
   }
 }
 
-\source{
-...
-}
 
 \examples{
 data(Feeding)
@@ -32,22 +28,9 @@ data(Feeding)
 
 Feeding$Lmort <- Feeding$Total - Feeding$Pupating
 
-# Pupae mortality
-
-Feeding$Pmort <- Feeding$Pupating - Feeding$Hatching
-
-# Total mortality
-
-Feeding$Tmort <- Feeding$Total - Feeding$Hatching
-
 fit1<-glm(cbind(Pupating,Lmort)~Variety,data=Feeding, family=quasibinomial)
 anova(fit1, test="F")
 
-fit2<-glm(cbind(Hatching,Pmort)~Variety,data=Feeding, family=quasibinomial)
-anova(fit2, test="F")
-
-fit3<-glm(cbind(Total,Tmort)~Variety,data=Feeding, family=quasibinomial)
-anova(fit3, test="F")
 
 }
 \keyword{datasets}

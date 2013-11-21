@@ -12,7 +12,6 @@ Construct local confidence intervals for each parameter from the empirical joint
 a parameter vector of length P. 
 }
 \usage{
-CInp(x, ...)
 
 \method{CInp}{default}(x, conf.level = 0.95,
  alternative = "two.sided", ...)

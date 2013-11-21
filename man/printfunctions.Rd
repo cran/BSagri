@@ -1,12 +1,18 @@
-\name{print.SCSnp}
+\name{print.np}
 \alias{print.SCSnp}
+\alias{print.CInp}
+\alias{print.simplesimint}
+\alias{print.UnlogCI}
 
 \title{ Print function for SCSnp }
 \description{
- A print function for objects of class "SCSnp"
+ A print functions.
 }
 \usage{
 \method{print}{SCSnp}(x, ...)
+\method{print}{CInp}(x, ...)
+\method{print}{simplesimint}(x, ...)
+\method{print}{UnlogCI}(x, ...)
 }
 
 \arguments{
@@ -15,4 +21,4 @@
 }
 
 
-\keyword{ print }
+\keyword{ internal }

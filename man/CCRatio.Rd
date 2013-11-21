@@ -31,5 +31,5 @@ An object of class "CCRatio", a list with elements
   \item{cmat }{the M-times-P contrast matrix}
 
 }
-\keyword{ misc }
+\keyword{internal}
 

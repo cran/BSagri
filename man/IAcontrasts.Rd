@@ -37,5 +37,4 @@ IAC2
 }
 
 \keyword{ htest }
-\concept{ multiple comparisons }
-\concept{ interaction }
+

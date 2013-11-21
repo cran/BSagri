@@ -2,7 +2,7 @@
 \alias{vcov.gamlss}
 \title{ Extract variance covariance matrix from objects of class gamlss }
 \description{
-Only for internal use. Extract the varaince covariance matrix corresponding to the mu parameters of a gamlss-fit.
+Only for internal use. Extract the covariance matrix corresponding to the mu parameters of a gamlss-fit.
  }
 \usage{
 \method{vcov}{gamlss}(object, \dots)

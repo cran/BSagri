@@ -15,7 +15,7 @@
 }
 
 \value{
-Prints to console.
+Print
 }
 
 \examples{

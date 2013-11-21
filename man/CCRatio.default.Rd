@@ -60,5 +60,5 @@ CCRatio.default(x=X, cmat=list(numC=NMAT, denC=DMAT) )
 
 }
 
-\keyword{ htest }
-\concept{ contrast }
+\keyword{ internal }
+

@@ -17,4 +17,4 @@ minus2slash(x)
 a vector of character strings
 }
 
-\keyword{ misc }
+\keyword{ internal }

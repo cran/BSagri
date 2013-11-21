@@ -16,7 +16,7 @@
   }
 }
 \source{
-  Created by simulation.
+  simulation
 }
 \examples{
 data(MMPois)

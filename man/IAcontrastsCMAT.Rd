@@ -46,8 +46,6 @@ c2compnames(IAC, ntype="sequ")
 
 ###
 
-# In
-
 
 n1<-c(10,10,10,10)
 names(n1)<-c("A","B","C","D")
@@ -67,5 +65,3 @@ c2compnames(IAC, ntype="sequ")
 }
 
 \keyword{ htest }
-\concept{ multiple comparisons }
-\concept{ interaction }

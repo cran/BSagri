@@ -11,9 +11,9 @@ checkargssim(coef, vcov, cmat)
 
 \arguments{
   \item{coef}{ a vector of parameters }
-  \item{vcov}{ the corresponding variance-covariance matrix }
+  \item{vcov}{ the corresponding covariance matrix }
   \item{cmat}{ a contrast matrix }
 }
 
 
-\keyword{ misc }
+\keyword{ internal }

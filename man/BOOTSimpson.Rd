@@ -67,14 +67,8 @@ SCIdunnettd<-BOOTSimpsonD(X=DAT, f=f, type = "Dunnett",
 
 SCIdunnettd
 
-SCIdunnettr<-BOOTSimpsonR(X=DAT, f=f, type = "Dunnett",
- conf.level = 0.95, alternative = "two.sided")
-
-SCIdunnettr
 
 }
 
 \keyword{ htest }
-\concept{ simultaneous confidence }
-\concept{ bootstrap }
-\concept{ diversity }
+

@@ -14,7 +14,7 @@ CIGLM(x, conf.level = 0.95, method = c("Raw", "Adj", "Bonf"))
   \item{method}{ a single character string, with \code{"Raw"} for unadjusted intervals, \code{"Adj"} for multiplicity adjusted intervals taking the correlations into account, or \code{"Bonf"} for a Bonferroni adjustment }
 }
 \details{
- This is just a wrapper to \code{confinf.glht} of package \code{multcomp}.
+ This is just a wrapper to \code{confint.glht} of package \code{multcomp}.
 
  Note that except for the simple general linear model with assumption of Gaussian response, the resulting intervals are exact intervals.
  In other cases, the methods are only asymptotically correct, hence might give misleading results for small sample sizes!
@@ -32,7 +32,6 @@ when there is a log or logit link, with appropriate naming.
 data(Diptera)
 library(multcomp)
 
-
 modelfit <- glm(Ges ~ Treatment, data=Diptera, family=quasipoisson)
 comps <- glht(modelfit, mcp(Treatment="Tukey"))
 CIs<-CIGLM(comps, method="Raw")
@@ -43,7 +42,6 @@ CIsAdj
 
 CIsBonf<-CIGLM(comps, method="Bonf")
 CIsBonf
-
 
 library(gamlss)
 

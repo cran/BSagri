@@ -13,30 +13,32 @@
 class \code{gamlss} or \code{geeglm}.}
 
 \usage{
-\method{modelparm}{gamlss}(model, coef. = coef, vcov. = vcov.gamlss, df = NULL, ...)
-\method{modelparm}{geeglm}(model, coef. = coef, vcov. = vcov.geeglm, df = NULL, ...)
-
-
+\method{modelparm}{gamlss}(model, coef.=coef, vcov.=vcov, df = NULL, ...)
+\method{modelparm}{geeglm}(model, coef.=coef, vcov.=vcov, df = NULL, ...)
 }
 
 \arguments{
-  \item{model}{ an object of class \code{gamlss}, as currently is created by calling \code{gamlss} }
-  \item{coef.}{ function to extract coefficients }
-  \item{vcov.}{ function to extract variance covariance matrix }
-  \item{df}{ function to extract degrees of freedom  }
-  \item{\dots}{ further argument to be passed to \code{modelparm.default(multcomp)} }
+  \item{model}{ an object of class \code{gamlss} and \code{geeglm}, respectively}
+  \item{coef.}{ a function to extract fitted mean parameters from models of class \code{gamlss} and \code{geeglm}}
+  \item{vcov.}{ a function to extract the estimated covariance matrix from models of class \code{gamlss} and \code{geeglm}}
+  \item{df}{ a single positive integer, the user-defined degrees of freedom. By default, \code{df=NULL}, the funtion will extract the residual degrees of freedom from the model.}
+  \item{\dots}{ further argument, not used} 
 }
 
 \details{
-  Only for internal use. Further checks should be implemented.
+ Test versions. Only for internal use. Further checks still need to be implemented.
 }
 
 \value{
-As \code{modelparm.default}.
+As modelparm.default in package multcomp, a list with elements 
+  \item{coef}{a numeric vector with the estimated model parameters}
+  \item{vcov}{a matrix with numeric entries, and dimensions as length(coef)}
+  \item{df}{a single numeric value, the residual degree of freedom}
+  \item{estimable}{a logical vector, specifying which rows/colums of vcov correspond to non-NA parameters}
   }
 
-\author{Daniel Gerhard, code slightly changed from package \code{multcomp}} 
+\author{Daniel Gerhard, Frank Schaarschmidt adapting code by T.Hothorn available in \code{modelparm.default}, package \code{multcomp}} 
 
 \seealso{ function \code{glht} in package \code{multcomp} }
 
-\keyword{ htest }
+\keyword{ internal }

@@ -1,18 +1,35 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
-# Export all names
-exportPattern(".")
-
-# Import all packages listed as Imports or Depends
-import(
-  mvtnorm,
-  multcomp,
-  gamlss,
-  mratios,
-  MCPAN,
-  pairwiseCI,
-  lattice,
-  geepack,
-  boot
+export(allignment,
+BOOTSimpsonD, BOOTSimpsonR,
+CCDiff, CCDiff.boot, CCDiff.default,
+CCRatio, CCRatio.boot, CCRatio.default,
+CIGLM, UnlogCI, UnlogCI.glht,
+CInp, CInp.bugs, CInp.CCDiff, CInp.CCRatio, CInp.default,
+SCSnp, SCSnp.bugs, SCSnp.CCDiff, SCSnp.CCRatio, SCSnp.default,
+UnlogCI,
+IAcontrasts, IAcontrastsCMAT, c2compnames, minus2slash,
+simplesimint
 )
+
+import(gamlss)
+
+importFrom(boot, boot)
+importFrom(mvtnorm, qmvt, qmvnorm)
+importFrom(mratios, contrMatRatio)
+importFrom(multcomp, contrMat, modelparm)
+importFrom(MCPAN, plotCI, plotCII)
+
+S3method(modelparm, geeglm)
+S3method(modelparm, gamlss)
+
+S3method(vcov, geeglm)
+S3method(vcov, gamlss)
+
+S3method(plotCI, UnlogCI)
+S3method(plotCI, simplesimint)
+
+S3method(print, CInp)
+S3method(print, SCSnp)
+S3method(print, simplesimint)
+S3method(print, UnlogCI)
+
+S3method(summary, simplesimint)

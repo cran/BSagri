@@ -19,9 +19,8 @@ c2compnames(cmat, ntype = "aggr")
  and \code{"sequ"}
  }
 }
-\details{
- Improvements of this function are welcome!
-}
+
+
 \value{
 The input matrix cmat, with its row names replaced.
 }
@@ -72,5 +71,5 @@ c2compnames(CMW, ntype="sequ")
 
 }
 
-\keyword{ htest }
-\concept{ multiple comparisons }
+\keyword{ misc }
+

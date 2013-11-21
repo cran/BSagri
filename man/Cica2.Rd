@@ -37,7 +37,6 @@ data(Cica2)
 
 # A comparison of the treatments:
 
-dev.new(width=12,height=4)
 layout(matrix(1:4,ncol=4))
 
 ylim<-range(Cica2[,c("Au_Bonitur","Zs_sweep_netting", "Zs_yellow_traps", "Zs_stick_traps")])
@@ -55,8 +54,6 @@ boxplot(Zs_stick_traps ~ Treatment, data=Cica2,
  main="Z.scutellaris, sticky traps", ylim=ylim, horizontal=TRUE, las=1)
 
 # A comparison of sampling methods:
-
-dev.new(width=10,height=10)
 
 pairs(Cica2[,c("Au_Bonitur","Zs_sweep_netting", "Zs_yellow_traps", "Zs_stick_traps")])
 

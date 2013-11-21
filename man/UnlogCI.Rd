@@ -2,9 +2,9 @@
 \alias{UnlogCI}
 \alias{UnlogCI.glht}
 
-\title{ Transform confidence intervals from glm fits and geeglm fits. }
+\title{ Transform confidence intervals from glm fits. }
 \description{
-Transform confidence intervals derived from glm and geeglm fits back to original scale and give appropriate names.
+Transform confidence intervals derived from glm fits back to original scale and give appropriate names.
 }
 \usage{
 \method{UnlogCI}{glht}(x)

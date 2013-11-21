@@ -76,17 +76,5 @@ boxplot(Sp3 ~ Treatment*Year, data=Lepi, main="Species 3",
  las=1, horizontal=TRUE, col=c("red","white","white"))
 
 
-layout(matrix(1:3, ncol=1 ))
-par(mar=c(2,8,2,1))
-
-boxplot(Sp1 ~ Treatment*Year, data=Lepi, main="Species 1",
- las=1, horizontal=TRUE, col=c("red","white","white"))
-
-boxplot(Sp8 ~ Treatment*Year, data=Lepi, main="Species 8",
- las=1, horizontal=TRUE, col=c("red","white","white"))
-
-boxplot(Sp9 ~ Treatment*Year, data=Lepi, main="Species 9",
- las=1, horizontal=TRUE, col=c("red","white","white"))
-
 }
 \keyword{datasets}

@@ -24,16 +24,14 @@
 }
 
 \source{
-...
+personal communications S. Prescher, JKI Braunschweig, Germany
 }
 
 \examples{
 data(Diptera)
 
-dev.new(width=5, height=12)
 
-layout(matrix(1:6, nrow=6))
-par(mar=c(2,5,3,1))
+layout(matrix(1:6, nrow=3))
 
 boxplot(Callip~Treatment, data=Diptera, horizontal=TRUE, las=1,
  main="Abundanz Callip", col=c("white","white","blue","red"))

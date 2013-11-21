@@ -3,7 +3,7 @@
 \docType{data}
 \title{ A simulated data set}
 \description{
- A simulated data set, mimicking an experiment on the decomposition
+ A simulated data set, resembling an experiment on the decomposition
  of plant material from four different varieties in soil.
 }
 \usage{data(Decomp)}
@@ -30,7 +30,7 @@ Note, that this data set merely serves as an example to evaluate clustered data.
  Simulated.
 }
 \references{
-  Mimicking an experiment performed by Sabine Prescher (JKI Braunschweig).
+ Resembling the experimental structure of an experiment performed by Sabine Prescher (JKI Braunschweig).
 }
 \examples{
 data(Decomp)

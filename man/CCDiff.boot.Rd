@@ -22,5 +22,5 @@ CCDiff.boot(x, cmat = NULL,
 }
 
 
-\keyword{ htest }
-\concept{ contrast }
+\keyword{ internal }
+

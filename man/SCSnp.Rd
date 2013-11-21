@@ -11,8 +11,6 @@ Calcualte simultaneous confidence sets according to Besag et al. (1995) from a e
 }
 \usage{
 
-SCSnp(x,...)
-
 \method{SCSnp}{default}(x, conf.level = 0.95,
  alternative = "two.sided", ...)
 
@@ -45,9 +43,9 @@ Let P be the number of parameters in the parameter vector and N be the total num
   \item{alternative }{a single character string, as input}
 }
 \references{ Besag J, Green P, Higdon D, Mengersen K (1995): Bayesian Computation and Stochastic Systems. Statistical Science 10 (1), 3-66.}
-\author{ Frank Schaarschmidt }
+\author{ Frank Schaarschmidt, adapting an earliere version of Gemechis D. Djira}
 
-\seealso{ \code{\link{CInp}} for a wrapper to \code{quantile} to compute elementwise intervals}
+\seealso{ \code{\link{CInp}} for a wrapper to \code{quantile} to compute simple percentile intervals on each of P marginal distributions}
 \examples{
 
 
