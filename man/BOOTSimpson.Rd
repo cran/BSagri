@@ -63,7 +63,8 @@ DAT<-as.data.frame(X)
 f<-as.factor(rep(c("A","B","C","D"),each=10))
 
 SCIdunnettd<-BOOTSimpsonD(X=DAT, f=f, type = "Dunnett",
- conf.level = 0.95, alternative = "two.sided")
+ conf.level = 0.95, alternative = "two.sided", R=500)
+ # with small no of bootstraps for illustration
 
 SCIdunnettd
 

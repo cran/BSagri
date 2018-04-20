@@ -1,5 +1,5 @@
-465048b86a358e79c142cb52db414293 *DESCRIPTION
-e55aba8d8b23dcab2b6b2824342f65ee *NAMESPACE
+dc04a7a3b90575ff1b2d1b68f16135ec *DESCRIPTION
+e29c47164f75448a02272c56067d8932 *NAMESPACE
 4a5f6ac8706f11b58ba74d94b94a8333 *R/BOOTSimpsonD.R
 a9b7b73a099c2f279b9c43c443ca0f14 *R/BOOTSimpsonR.R
 996df490d1558d81f6cba2bfba0b1662 *R/CCDiff.R
@@ -32,7 +32,7 @@ d3b6a07bba14541113a07bad7b811882 *data/Lepi.rda
 43e9ba8aeeb10daf9ed2f277e94be932 *data/MMPoisRep.rda
 0ec8360610d9c59bdce83248199b5e8a *data/Nematocera.rda
 5e18f43af47df4b868050bef9750f276 *data/fakeln.rda
-5de4b21581f48fcc0bd074545b5e52ab *man/BOOTSimpson.Rd
+966efb35140e9d5050bc58e22e808999 *man/BOOTSimpson.Rd
 4ab7473aeede190738f435f63fbf4b24 *man/Brachycera.Rd
 d45ed07f6c29bccc6a77ad00ad3e3e4b *man/CCDiff.Rd
 136f0d266e928934fd0e42645ec2f088 *man/CCDiff.boot.Rd
@@ -70,6 +70,6 @@ f4961ef79d6cdb0ee2cb92472046dd52 *man/fakeln.Rd
 64de828f04099c681f36786ca7fb2494 *man/plotCI.Methods.Rd
 6398d1466fe9b275af0294393fa23635 *man/printfunctions.Rd
 0101099acf6fbb138daa46d8c8f54db4 *man/simplesimint.Rd
-d548adf1025964eeca82642ebf908fd3 *man/summary.simplesimint.Rd
+3c2e9082960f6c8aebbfcb7892701af9 *man/summary.simplesimint.Rd
 480e9cbb8b53580c76dc4de4f4e7c7f9 *man/vcov.gamlss.Rd
 8418b5a31caae990f4bb0629ac5408c2 *man/vcov.geeglm.Rd

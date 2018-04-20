@@ -15,8 +15,9 @@ import(gamlss)
 importFrom(boot, boot)
 importFrom(mvtnorm, qmvt, qmvnorm)
 importFrom(mratios, contrMatRatio)
-importFrom(multcomp, contrMat, modelparm)
-importFrom(MCPAN, plotCI, plotCII)
+importFrom(multcomp, contrMat, modelparm, adjusted_calpha, univariate_calpha)
+importFrom(MCPAN, plotCI, plotCII, estSimpsonf)
+importFrom("stats", "as.formula", "coef", "confint", "cov2cor", "median", "model.frame", "model.matrix", "quantile", "vcov")
 
 S3method(modelparm, geeglm)
 S3method(modelparm, gamlss)
@@ -26,6 +27,18 @@ S3method(vcov, gamlss)
 
 S3method(plotCI, UnlogCI)
 S3method(plotCI, simplesimint)
+
+S3method(CInp, default)
+S3method(CInp, bugs)
+S3method(CInp, CCDiff)
+S3method(CInp, CCRatio)
+
+S3method(SCSnp, default)
+S3method(SCSnp, bugs)
+S3method(SCSnp, CCDiff)
+S3method(SCSnp, CCRatio)
+
+S3method(UnlogCI, glht)
 
 S3method(print, CInp)
 S3method(print, SCSnp)

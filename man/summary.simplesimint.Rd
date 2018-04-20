@@ -18,56 +18,6 @@
 Print
 }
 
-\examples{
-library(multcomp)
-data(waste)
-
-anova(lm(waste ~ temp*envir, data=waste))
-
-# a cell-means model instead
-# of a two-way-layout
-
-fit <- lm(waste ~ 0 + temp:envir, data=waste)
-
-COEF <- coef(fit)
-VCOV <- vcov(fit)
-
-DF <- fit$df.residual
-
-IAC <- IAcontrasts(type=c("Identity", "Dunnett"), k=c(5,3))
-IACn <- c2compnames(IAC)
-
-SCI<- simplesimint(coef=COEF, vcov=VCOV, df=DF, cmat=IACn)
-
-# the print function just gives this:
-
-SCI
-
-# the summary function produces some more output:
-
-summary(SCI)
-
-###############
-
-
-IAC <- IAcontrasts(type=c("Identity", "Dunnett"), k=c(5,3))
-
-# long names currently give nasty outputs!
-
-colnames(IAC)<-names(COEF)
-
-IACn <- c2compnames(IAC)
-
-SCI<- simplesimint(coef=COEF, vcov=VCOV, df=DF, cmat=IACn)
-
-SCI
-
-# the summary function produces some more output:
-
-summary(SCI)
-
-
-}
 
 \keyword{ print }
 
